@@ -1,1 +1,86 @@
 Give me some idea on what is a Data type. What are Primitive Data types and Non-Primitive Data types. Explain with some examples.
+
+Datatypes:-
+==========
+-they can be used to mention what kind of data used in the variable.
+
+Types:-
+------
+1.primitive : 	it can store single values.
+	     	they are default
+		String, number, Boolean, null, undefined
+
+2.non-premitive : 	it can store multiple values.
+	     		they are user defined
+			functions, arrays, objects
+
+
+1.String:
+-Sequence of characters enclosed within double quotes/single quotes/backticks(``).
+2.Number:
+-It stores all the number datatypes such as integer, float values, etc..
+3.Boolean:
+-true or false
+4.Undefined:
+-any variable declared but not initialized.
+5.numm:
+-empty of object.
+
+
+Examples:-
+============
+
+String:-
+-------
+var user = "Sam"
+var user = "Miller" //reinitialization  possible
+console.log(user) 
+
+Number:-
+--------
+let num = 1000
+num = true //reinitialization  possible
+console.log(num)
+
+const dob = 2005
+dob = 2000 //re-initalization is not possible
+console.log(dob)
+
+var a = 10
+var a = 30  //re-declaration is possible with var
+console.log(a)
+
+let b = 40;
+// let b = 50;  let cannot be re-declared
+console.log(b)
+
+let str1 = "double"
+console.log(str1)
+console.log(typeof(str1))
+
+let str2 = 'single'
+console.log(str2)
+console.log(typeof(str2))
+
+
+let str3 = `double`
+console.log(str3)
+console.log(typeof(str3))
+
+Boolean:-
+-----------
+let boo = true
+console.log(boo)
+console.log(typeof(boo))
+
+Undefined:-
+-----------
+let a
+console.log(a)
+console.log(typeof(a))
+
+Null:-
+----------
+let nu = null
+console.log(nu)
+console.log(typeof(nu))

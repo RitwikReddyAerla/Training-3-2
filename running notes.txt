@@ -33,8 +33,11 @@ ex:= int a  = 10 // let b = 20 // const c = 30
 previously we only had var variable. To avoid re-declaration other variables were eventually created.
 
 Datatypes:-
+==========
 -they can be used to mention what kind of data used in the variable.
+
 Types:-
+------
 1.primitive : 	it can store single values.
 	     	they are default
 		String, number, Boolean, null, undefined
@@ -42,6 +45,7 @@ Types:-
 2.non-premitive : 	it can store multiple values.
 	     		they are user defined
 			functions, arrays, objects
+
 
 1.String:
 -Sequence of characters enclosed within double quotes/single quotes/backticks(``).
