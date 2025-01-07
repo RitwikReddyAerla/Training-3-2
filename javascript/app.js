@@ -34,16 +34,16 @@
 // console.log(str3)
 // console.log(typeof(str3))
 
-let boo = true
-console.log(boo)
-console.log(typeof(boo))
+// let boo = true
+// console.log(boo)
+// console.log(typeof(boo))
 
 
-let a
-console.log(a)
-console.log(typeof(a))
+// let a
+// console.log(a)
+// console.log(typeof(a))
 
 
-let nu = null
-console.log(nu)
-console.log(typeof(nu))
+// let nu = null
+// console.log(nu)
+// console.log(typeof(nu))

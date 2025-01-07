@@ -1,0 +1,195 @@
+HTML:-
+HTML is a mark up language. It is not a programming language
+
+JavaScript:-
+JavaScript is a high-level language. It is a loosely typed language. It is a lightweight and scripting language.
+
+High-level : understandable by both humans and computers
+loosely typed : not many restrictions while writing the code
+lightweight : means we dont need a compiler to run the js code. We can directly run with the                       	      help js virtual machine which is present in the web browsers. 
+Scripting language : The code is read by interpreter directly.
+
+Js applications:-
+-web pages
+-mobile apps
+-smartwatch apps (using pebble js)
+-gaming applications
+-database (mongoDB)
+-ex:- uber, walmart, godaddy
+
+Varibles:-
+varoables are containers/memory blocks  to store values.
+types:
+-var: it can be re-initialized and re-declared
+-let: it can be re-initialized and cannot be re-declared
+-const: it cannot be re-initialized and re-declared.
+
+ex:= int a  = 10 // let b = 20 // const c = 30
+		console.log(a, b, c) //python equivalent of printing output
+
+
+-Js file can be created with ending "filename.js".
+
+previously we only had var variable. To avoid re-declaration other variables were eventually created.
+
+Datatypes:-
+-they can be used to mention what kind of data used in the variable.
+Types:-
+1.primitive : 	it can store single values.
+	     	they are default
+		String, number, Boolean, null, undefined
+
+2.non-premitive : 	it can store multiple values.
+	     		they are user defined
+			functions, arrays, objects
+
+1.String:
+-Sequence of characters enclosed within double quotes/single quotes/backticks(``).
+2.Number:
+-It stores all the number datatypes such as integer, float values, etc..
+3.Boolean:
+-true or false
+4.Undefined:
+-any variable declared but not initialized.
+5.numm:
+-empty of object.
+
+====================
+07-01-2025
+====================
+
+Operators:-
+-operators are special type of symbols to perform some operations on operands.
+
+ex:
+2(operand1) *(symbol) 3(operand2)
+
+*unary
+*binary
+*ternary
+
+1.Arithmetic operator:-
+-----------------------
++, - *, / , %, **, ++, --
+
+
+concatenation : joining of two or more strings
+typecasting : changing one datatype into another data type
+NaN(not a number) : it is a special type number which is not legal in javascript
+
+Increment:
+1.pre-increment: it will increment the value by one before execution
+1.post-increment: it will increment the value by one after execution
+
+
+2.Assignment operator:
+-----------------------
+=, +=, -=, %=, *=
+-relational operators always return Boolean values
+
+3.Relational operators:-
+------------------------
+==, ===, !=, !==(strictly not equal to), >, >=, <, <=
+diff btw == and ===
+==: checks if the values of is equal
+===: checks if the values and datatype is equal
+
+4.Logical operators:-
+----------------------
+AND(&&) : it will return true only when both conditions are true else false
+OR(||): it will return true if both conditions are true or any one condition is true
+NOT(!): it will make true as false and false as true
+
+Decision making statements:
+-----------------------------
+if : if block executes only when the condition is true
+     we can give only one condition for if
+if-else : this also 
+else-if ladder
+switch
+ternary condition
+
+Looping statements:-
+--------------------
+-looping statements are used to iterate the block of codes multiple times
+
+1.for loop:
+---------
+-minimum iteration count of for loop is "0"
+syntax:
+for(initialization; condition; updation){
+	//statements
+}
+2.while loop
+------------
+-minimum iteration count of while loop is "0"
+syntax:
+while(condition){
+	//statement
+	updation
+}
+3.do while:
+-----------
+-minimum iteration count of do while is "1"
+syntax"
+do{
+	//statements
+	while(condition)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
