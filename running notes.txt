@@ -1,3 +1,6 @@
+======================
+06-01-2025 (day - 1)
+======================
 HTML:-
 HTML is a mark up language. It is not a programming language
 
@@ -59,7 +62,7 @@ Types:-
 -empty of object.
 
 ====================
-07-01-2025
+07-01-2025 (day - 2)
 ====================
 
 Operators:-
@@ -138,62 +141,22 @@ while(condition){
 syntax"
 do{
 	//statements
-	while(condition)
+} while(condition)
 
+==========================
+08-01-2025 (day - 3)
+=========================
 
+Functions:-
+--------------
+-function is a block of code used to perform specific tasks
+-functions can be reused for n number of times.
 
+syntax:-
+function function_name(optional parameters) //function declaration
+	{
+		//statements
+	}
+	function_name(arguments); //function calling
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Note:- without calling the function body will never execute

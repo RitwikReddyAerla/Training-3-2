@@ -76,24 +76,24 @@
 //let b = 30
 //let c = 10
 
-let a = Number(prompt("Enter the first number:")) ;
-let b = Number(prompt("Enter the second number:")) ;
-let c = Number(prompt("Enter the third number:")) ;
-console.log("a" + a)
-console.log("b" + b)
-console.log("c" + c)
-if(a > b && a > c){
-    console.log("The bigger number is:"+a)
-}else if(b > a && b > c){
-    console.log("The bigger number is:"+b)
-}else if(c > a && c > b){
-    console.log("The bigger number is:"+c)
-}else if(a = b && a > c){
-    console.log("The bigger number is:"+a, b)
-}else if(c = a && c > b){
-    console.log("The bigger number is:"+c, a)
-}else if(b = c && b > a){
-    console.log("The bigger number is:"+c, b)
-}else{
-    console.log("All the numbers are equal")
-}
+// let a = Number(prompt("Enter the first number:")) ;
+// let b = Number(prompt("Enter the second number:")) ;
+// let c = Number(prompt("Enter the third number:")) ;
+// console.log("a" + a)
+// console.log("b" + b)
+// console.log("c" + c)
+// if(a > b && a > c){
+//     console.log("The bigger number is:"+a)
+// }else if(b > a && b > c){
+//     console.log("The bigger number is:"+b)
+// }else if(c > a && c > b){
+//     console.log("The bigger number is:"+c)
+// }else if(a = b && a > c){
+//     console.log("The bigger number is:"+a+","+ b)
+// }else if(c = a && c > b){
+//     console.log("The bigger number is:"+c+","+ a)
+// }else if(b = c && b > a){
+//     console.log("The bigger number is:"+c+","+ b)
+// }else{
+//     console.log("All the numbers are equal")
+// }
