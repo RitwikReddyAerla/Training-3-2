@@ -160,3 +160,31 @@ function function_name(optional parameters) //function declaration
 	function_name(arguments); //function calling
 
 Note:- without calling the function body will never execute
+
+=========================
+09-01-2025 (day - 4)
+=========================
+
+Types of function:-
+-----------------------------
+1.Named function : function which is having a name to declare and to i
+2.Ananymous function : function which dosent have a name to declare
+						-ananymous function cannot be executed independently
+3.Function expression : function declaration is assigned as a value to variable and the same function will be invoked with the help of 	variable
+4.Immediate invoke function expression(IIFE) : once the function is created, immediately it should be invoked
+							-it can only be executed only once
+5.Arrow function : to concise the syntax of normal function.
+syntax :- 
+	()=>{}
+-it is also similar to anonymuous function
+6.Higher order function
+7.Callback function :
+
+Note :- current version of js is es14
+es = ECMA Scripting
+ECMA = european computer manufacturing association
+
+return statement:-
+-it will return either expression or variable to future used
+implicit return :- returns without using a 'return' keyword manually
+explicit return :- returns without using a 'return' keyword manually

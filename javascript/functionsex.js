@@ -20,8 +20,79 @@
 // }
 // sub(1,5);
 
-function addToCart(){
-    document.body.style.background="teal";
-    alert("Welcome to cart page");
-}
-addToCart();
+// function addToCart(){
+//     document.body.style.background="teal";
+//     alert("Welcome to cart page");
+// }
+// addToCart();
+
+// function isPalindrome(str){
+//     let revstr = "";
+//     for(let i =str.length-1; i>=0; i--){
+//         // console.log(str[i]);
+//         revstr += str[i];
+//     }
+//     if(str == revstr){
+//         console.log(str+" is a Palindrome");
+//     }else{
+//         console.log(str+" is not a palindrome");
+//     }
+// }
+// isPalindrome("madam");
+// isPalindrome("sir");
+// isPalindrome("malayalam");
+
+// //Anonymous function
+// function(){
+//     console.log("Anonymous function");
+// }//cannot be executed independently
+
+//function expression
+// let x = function(){
+//     console.log("function expression");
+// }
+// // console.log(x);
+// x();
+// x();
+// x();
+
+//  IIFE
+// (
+//     function(){
+//         console.log("IIFE");
+//     }
+// )();
+
+// Arrow function
+// let x = ()=>{console.log("Hello")}; //this has two special characters '(' and ')'
+// x();
+// let y = _ =>{console.log("Hello")}; //this only has a single special character '_' . So it is faster to executed. Hence performance is faster.
+// y();
+
+// let x = a=> console.log(a);
+// x(10);
+
+// let y = (a, b) => console.log(a+b);
+// y(10, 5)
+
+// let x = _ => {console.log("Hi");
+//               console.log("Bye");
+//               console.log("Heyu");
+// }
+// x();
+
+//return -implicit and explicit
+
+// function add(a, b){
+//     console.log("before return");
+//     return a+b;   //explicit return
+// }
+// // add(10, 5);
+// let x = add(5,2);
+// console.log(x);
+
+// let x = (a, b) => a+b;      //implicit return in arrow function
+// console.log(x(10, 30));    
+
+// let y = (a, b) => {return a+b};
+// console.log(y(10, 2));      //explicit return in arrow function
