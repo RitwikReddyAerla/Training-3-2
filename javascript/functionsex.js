@@ -92,7 +92,65 @@
 // console.log(x);
 
 // let x = (a, b) => a+b;      //implicit return in arrow function
-// console.log(x(10, 30));    
+// console.log(x(10, 30))  
 
 // let y = (a, b) => {return a+b};
-// console.log(y(10, 2));      //explicit return in arrow function
+// console.log(y(10, 2));      //explicit return in arrow function\
+
+//higher order function
+// function hof(a){
+//     return a();
+// }
+// let x = hof(10);
+// let x = hof("insta");
+// let x = hof([1, 2, 3, 4]);
+// let x = hof(function(){return "This is a call back function."})
+// console.log(x);
+// console.log(x());
+
+// let a = function(){
+//     console.log("func exp");
+// }
+// console.log(a);
+// console.log(a());
+
+// function add(callback){
+//     return callback;
+// }
+// let x = add(function(a, b){return a + b});
+// console.log(x);
+// console.log(x);
+
+//let users = ["abc", "def", "ghi", "jkl", "mno"];
+// console.log(users);
+// console.log(users[0]);
+// console.log(users[1]);
+// console.log(users[2]);
+// console.log(users[3]);
+// console.log(users[4]);
+// for(let i = 0; i < users.length; i++){
+//     // console.log(i);
+//     console.log(users[i]);
+// }
+// users.map((users) => {
+//     console.log(users);
+// });
+
+// let a = users.forEach((users) => {
+//     return (users);
+// });
+// console.log(a)
+
+var a = 10;
+var b = 30;
+function x(){
+    var user = "abc";
+    let company = 'amz';
+    const sal = 12345;
+    console.log(user);
+    console.log(company);
+    console.log(sal);
+
+    console.log(a, b)
+}
+x();

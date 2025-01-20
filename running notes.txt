@@ -177,8 +177,13 @@ Types of function:-
 syntax :- 
 	()=>{}
 -it is also similar to anonymuous function
-6.Higher order function
-7.Callback function :
+6.Higher order function : 
+-it is a function which accepts another function as a value/argument ot its parameter.
+
+7.Callback function :-
+-it is a function which is passed as a value/arguments to another function.
+
+-closure:- colsure is a memory created by functions bundled together/functions nested with eachother by giving accessibility to the innermost functin to access the variables of outermost function.
 
 Note :- current version of js is es14
 es = ECMA Scripting
@@ -188,3 +193,99 @@ return statement:-
 -it will return either expression or variable to future used
 implicit return :- returns without using a 'return' keyword manually
 explicit return :- returns without using a 'return' keyword manually
+
+=============================
+11-01-2025 (day - 6)
+=============================
+Arrays:- 
+********
+- Array can store mulitple values within a single variable.
+- collections of items / values.
+- array can store homogenous values and heterogenous values.
+syntax :-  [] 
+
+ex :-  
+
+
+map and forEach difference
+map:- it is used to iterrate the values of an array one by one.
+- it will return new Array from original array.
+
+forEach :- it is sued to iterate the values of an array.
+- if we return the value we will get "undefined".
+
+methods in array:-
+******************
+push() , pop() , unshift() , shift() , reverse() , join()
+concat()
+
+what is object ?
+- object is an entity which is used to store the values in the form of key &value pairs.
+- Object is a physical entity which is having states(properties) and behaviours(method).
+
+syntax :-  let obj = {};
+
+notes: - Object based language  + OOPs
+
+ex:-    let obj ={
+                name:"Sam",
+                age:25
+                }
+
+JSON :- Javascript object notation
+- IT is used to transmit the data from client to server and server to client.
+
+syntax :-  {
+                "key":"value"
+        }
+
+
+- for json no need to store it inside variable
+- both keys and values shoyuld be double quoted only except number.
+
+ex:- {
+    "name":"Sam",
+    "age":25
+}
+
+extension for json file is ".json"
+
+=============================
+20-01-2025 (Day - 7)
+=============================
+
+
+Methods of json:-
+1.JSON.stingify() :- it will convert js object into json object
+2.JSON.parse() :- it will convert json object into js object
+
+Web storages:-
+=================
+-it can store the data inside the browsers
+-upto 10mb of data can be stored
+
+1.local storages : 
+--------------------
+-it is a permanent data storage.
+-it can store upto 10mb of data.
+methods:-
+---------
+1.localStorage.setItem("key", "value")
+2.localStorage.getItem("key")
+3.localStorage.removeItem("key")
+4.localStorage.clear()
+
+
+2.session storages : 
+-it is a temporary data storage.(more secure)
+-it can store upto 5mb of data.
+methods:-
+---------
+1.sessionStorage.setItem("key", "value")
+2.sessionStorage.getItem("key")
+3.sessionStorage.removeItem("key")
+4.sessionStorage.clear()
+
+
+NOTE:-
+JS is a synchronous (single threaded language)
