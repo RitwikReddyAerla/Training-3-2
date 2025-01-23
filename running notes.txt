@@ -286,6 +286,50 @@ methods:-
 3.sessionStorage.removeItem("key")
 4.sessionStorage.clear()
 
+=============================
+21-01-25 and 22-01-25
+============================
 
 NOTE:-
 JS is a synchronous (single threaded language)
+
+
+Asynchronous:- making javascript to work multiple work simulataneously.
+
+1.setTimeout() :- It is a web api used to perform asynchronous opeartion in certain timeoout.
+synatx :-      setTimeout(callbackfn , timeout);
+2.setInterval() :- It is a web api used to perform async operations for evry interval of specified time.
+syntax :-    setInterval(callbackfn , timeinterval);
+
+3.Promise (es6 feature):- It is an Object which represents eventual completion or failures of asynchronous operations.
+        
+        states of promise :-
+        1.pending :-  still ongoing
+        2.fulfilled:-  successfully completed
+        3.rejected:- failueres
+syntax :-   let p = new Promise((resolve , reject)=>{});
+
+- for handling the promise we have a instance methods,
+                1.then() :- it is used to handle successful data.
+                2.catch() :- it is used to handle errors.
+                3.finally() :- finally will execute for both success & failures once the promise settles.
+
+
+4.Async & await
+async:- this keyword makes synchronous function as asynchronous function and start to execute  promise
+
+await:- this keyword will make the function to wait until promise completes
+
+DOM (Document Object Model):=
+==================================
+-dom is a web api used to manipulate the html content.
+-dom is used to add, remove, update the content the HTML document.
+
+Methods of dom:
+-------------------
+1.document.getElementByID("");
+2.document.getElementByClassName("");
+3.document.getElementByTagName("");
+4.document.getElementByName("");
+5.document.querySelector("")
+5.document.querySelectorAll("")

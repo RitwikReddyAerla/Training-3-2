@@ -1,0 +1,20 @@
+.social{
+    color: black;
+}
+.outline{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    margin: 0px;
+    /* box-sizing: border-box; */
+}
+.signup{
+    width: 100%;
+    align-items: center;
+    background-color: blue;
+}
+.int{
+    background-color: aqua ;
+    box-sizing: border-box;
+    width: 100%;
+}
