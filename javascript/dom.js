@@ -67,7 +67,18 @@
 //     document.body.style.backgroundColor="white";
 // })
 
-let inp = document.querySelector("#inp");
-inp.addEventListener("keydown", () => {
-    console.log("down");
+// let inp = document.querySelector("#inp");
+// inp.addEventListener("keydown", () => {
+//     console.log("down");
+// })
+
+let bgcol = document.querySelectorAll(".bgcol");
+[...bgcol].map((element) => {
+    element.addEventListener("mouseover",() => {
+        // console.log(element.innerText);
+        element.style.backgroundColor = element.innerText;
+    })
+    element.addEventListener("mouseleave", () => {
+        element.style.backgroundColor = "transparent";
+    })
 })

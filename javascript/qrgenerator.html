@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1.5em;
+            align-items: center;
+            justify-content: center;
+        }
+        .container{
+            width: 320px;
+            height: 420px;
+            border: 2px solid black;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>QR code generator</h1>
+        <div class="imageblock">
+            <img src="" alt="">
+        </div>
+        <div class="content">
+            <input type="text" placeholder="enter value" id="value">
+            <button>generate qr code</button>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=ritwik -->
