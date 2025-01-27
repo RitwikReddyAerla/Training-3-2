@@ -333,3 +333,8 @@ Methods of dom:
 4.document.getElementByName("");
 5.document.querySelector("")
 5.document.querySelectorAll("")
+
+
+Note:-
+======
+the default method in the form tag is "GET" method.
