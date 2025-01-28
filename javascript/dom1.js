@@ -67,32 +67,45 @@
 // mainele.appendChild(bottomele);
 // document.body.appendChild(mainele);
 
-let form = document.querySelector("form");
-
+let form=document.querySelector("form");
 let username = document.getElementById("uname");
 
 let password = document.getElementById("upass");
+let check = document.getElementById("check");
+let show = document.getElementById("show");
+
 
 let gen = document.getElementsByName("gender");
+// console.log(gen);
 
+//hiding and showing password
+check.addEventListener("click", event => {
+    // console.log(event);
+    if(event.target.checked == true){
+        password.setAttribute("type", "text");
+        show.innerText = "hide password";
+    }else{
+        password.setAttribute("type", "password");
+        show.innerText = "show password";
+    }
+})
 
-
-form.addEventListener("submit", event=>{
+form.addEventListener("submit",event=>{
     event.preventDefault();
     let un = username.value;
     let up = password.value;
-    let ug = gen.value;
-    let ele = [];
-    console.log(ele);
-    for(let i=0;i<=gen.length;i++){
-        if(gen[i].checked == true){
-            // console.log("true");
-            ele += gen[i].value;
-        }
+    // console.log(un , up);
+    let gender = "";
+   
+   for(let i=0;i<=gen.length-1;i++){
+    if(gen[i].checked == true){
+        // console.log("true" , gen[i].value);
+        gender += gen[i].value;
     }
-let userdetails = {
-    un, up, ug
-}
-console.log(userdetails);
-
+   }
+//    console.log(ele);
+let userDetails={
+    un,up,gender
+};
+console.log(userDetails);
 })
