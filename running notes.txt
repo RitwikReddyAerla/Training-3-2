@@ -385,3 +385,63 @@ creation of elements dynamically from javascript:-
 Note:-
 ======
 the default method in the form tag is "GET" method.
+
+
+====================
+30-01-2025
+====================
+Agenda:
+
+Modules
+Form validations
+
+Modules :
+=============
+->Modules are like import/export code to another js files
+
+ Named Modules : Definenly while importing should use the same name that you are defining exactly with in {} You can export as many modules of code that you want.
+
+ Default Modules:  While importing can use any name that you want. You can export only one modules of code in one source file. You should use the default keyword while exporting.
+
+=========================
+ 31-01-2025
+=========================
+
+what is ReactJS?
+-JavaScript is having libraries and frameworks.
+
+Libraries :- it is a collection of codes.
+        -they are having less set of rules
+        -reactjs, jquery, ember, etc...
+        -these are used to develop small or moderate amount of applications.
+
+Frameworks :- it is a collection of libraries.
+        -they are having more set of rules.
+        -angular, vuejs, pebble, etc...
+        -ekart applications, banking apps, etc...
+
+what is react?
+-react is a js library to build rich user interface.
+-react is faster because of "virtual dom".
+-react follows component based approach.
+-react follows unidirectional data flow.
+-react follows both client-side rendering and server-side rendering.
+
+-react was introduced in 2011 by facebook.
+-later it was made open-source in 2013.
+-it was created by Jordan Walke
+-react is a free and platform independent.
+
+what us virtual DOM?
+-virtual dom is a virtual representation of a ui which is kept in a memory and later synced with real dom by using a library called "ReactDOM".
+
+what is Recocialations?
+-the process of updating the RealDOM with the virtual DOM is called as Reconcialation.
+
+Installation of React application:-
+***********************************
+- install node js.
+- install react application CLI(command line interface)
+        -npm install create-react-app --globally
+-install react app with foldername
+        -npm init react-app myapp
