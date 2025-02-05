@@ -445,3 +445,22 @@ Installation of React application:-
         -npm install create-react-app --globally
 -install react app with foldername
         -npm init react-app myapp
+
+===========================
+05-02-2025
+===========================
+
+Props children:
+**************
+-a props.children prop is a special type of prop used to share the information
+
+props drilling:
+**************
+-prop is passing through multiple child elements to print in last child in last child element
+-props drilling is a passing a data down to child component.
+
+
+States:-
+*********
+-state is an object which is used to store / isolate the data inside the component.
+-state is mutable object.(can be modified).

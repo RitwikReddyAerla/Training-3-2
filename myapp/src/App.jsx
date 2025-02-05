@@ -23,19 +23,39 @@
 // }
 // export default App;
 
+// import React from 'react'
+// import FBCPROPex1 from "./propsexample/FBCPROPex1";
+
+// const App = () => {
+//   return (
+//     <div>
+//         <FBCPROPex1
+//         username="a"
+//         isLoggedIn={true}
+//         hobbies={["tv", "pirating", "gaming"]}
+//         />
+//     </div>
+//   )
+// }
+
+// export default App;
+
+// ! props children example
 import React from 'react'
-import FBCPROPex1 from "./propsexample/FBCPROPex1";
+import PropsChildrebEx from './propsexample/PropsChildrebEx'
+import ChildProps from './propsexample/ChildProps'
+import Child1 from './propsexample/Child1'
 
 const App = () => {
   return (
     <div>
-        <FBCPROPex1
-        username="a"
-        isLoggedIn={true}
-        hobbies={["tv", "pirating", "gaming"]}
-        />
+      {/* <PropsChildrebEx username="arun" company="meta">
+        <h1>this data is passed as props children</h1>
+        <ChildProps/>
+      </PropsChildrebEx> */}
+      <Child1 university="mru"/>
     </div>
   )
 }
 
-export default App;
+export default App
