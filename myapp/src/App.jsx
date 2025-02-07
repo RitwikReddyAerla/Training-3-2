@@ -41,19 +41,37 @@
 // export default App;
 
 // ! props children example
+// import React from 'react'
+// import PropsChildrebEx from './propsexample/PropsChildrebEx'
+// import ChildProps from './propsexample/ChildProps'
+// import Child1 from './propsexample/Child1'
+
+// const App = () => {
+//   return (
+//     <div>
+//       {/* <PropsChildrebEx username="arun" company="meta">
+//         <h1>this data is passed as props children</h1>
+//         <ChildProps/>
+//       </PropsChildrebEx> */}
+//       <Child1 university="mru"/>
+//     </div>
+//   )
+// }
+
+// export default App
+
+// ! state example
 import React from 'react'
-import PropsChildrebEx from './propsexample/PropsChildrebEx'
-import ChildProps from './propsexample/ChildProps'
-import Child1 from './propsexample/Child1'
+import CBCStateEx from './stateexamples/CBCStateEx'
+import FBCStateEx from './stateexamples/FBCStateEx'
 
 const App = () => {
   return (
     <div>
-      {/* <PropsChildrebEx username="arun" company="meta">
-        <h1>this data is passed as props children</h1>
-        <ChildProps/>
-      </PropsChildrebEx> */}
-      <Child1 university="mru"/>
+      App
+      <hr/>
+      {/* <CBCStateEx/> */}
+      <FBCStateEx/>
     </div>
   )
 }

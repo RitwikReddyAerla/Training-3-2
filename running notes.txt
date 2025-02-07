@@ -464,3 +464,44 @@ States:-
 *********
 -state is an object which is used to store / isolate the data inside the component.
 -state is mutable object.(can be modified).
+
+==========================
+06-02-2025
+==========================
+
+Class component:-
+*******************
+-in class component we have default state objects
+syntax:-
+    constructor(){
+        super();
+        this.state={
+            username:"user"
+        }
+    }
+-to update the state of a class component we have a method called as "this.setState"
+
+function component:-
+******************
+-functional component by default is a stateless until React v16.9, later they introduced "hooks" concept which makes react functional component as a stateful component.
+-useState() is making functional component from stateless to stateful component.
+suntax:-
+const [state, setState] = useState(initialValue);
+        state - this will store the initial values
+        setState - it is a method to update the state.
+
+Hooks:- hooks are nothing but functions which are used to provide all the features of class based componend into functional components.
+
+basic hooks are:-
+1.useState()
+2.useEffect()
+3.useContext()
+
+Note:-
+this keyword: it will target current object.
+
+======================
+07-02-2025
+=====================
+
+Tight coupling : one is dependent upon another, between components
