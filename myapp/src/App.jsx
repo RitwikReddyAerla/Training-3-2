@@ -64,6 +64,8 @@
 import React from 'react'
 import CBCStateEx from './stateexamples/CBCStateEx'
 import FBCStateEx from './stateexamples/FBCStateEx'
+import FunctionalComponent from './components/FunctionalComponent'
+import MyForm from "./components/MyForm"
 
 const App = () => {
   return (
@@ -71,7 +73,9 @@ const App = () => {
       App
       <hr/>
       {/* <CBCStateEx/> */}
-      <FBCStateEx/>
+      {/* <FBCStateEx/> */}
+      {/* <FunctionalComponent/> */}
+      <MyForm></MyForm>
     </div>
   )
 }
