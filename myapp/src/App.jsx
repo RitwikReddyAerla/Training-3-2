@@ -60,22 +60,52 @@
 
 // export default App
 
-// ! state example
+// // ! state example
+// import React from 'react'
+// import CBCStateEx from './stateexamples/CBCStateEx'
+// import FBCStateEx from './stateexamples/FBCStateEx'
+// import FunctionalComponent from './components/FunctionalComponent'
+// import MyForm from "./components/MyForm"
+
+// const App = () => {
+//   return (
+//     <div>
+//       App
+//       <hr/>
+//       {/* <CBCStateEx/> */}
+//       {/* <FBCStateEx/> */}
+//       {/* <FunctionalComponent/> */}
+//       <MyForm></MyForm>
+//     </div>
+//   )
+// }
+
+// export default App
+
+//! UseEffect
+// import React from 'react'
+// import ExUseEffect from './Hooks/ExUseEffect'
+
+// const App = () => {
+//   return (
+//     <div>
+//       <ExUseEffect></ExUseEffect>
+//     </div>
+//   )
+// }
+
+// export default App
+
+// ! useRef
 import React from 'react'
-import CBCStateEx from './stateexamples/CBCStateEx'
-import FBCStateEx from './stateexamples/FBCStateEx'
-import FunctionalComponent from './components/FunctionalComponent'
-import MyForm from "./components/MyForm"
+import Refexamples from './hooks/RefExamples'
+import ExUseEffect from './hooks/ExUseEffect'
 
 const App = () => {
   return (
     <div>
-      App
-      <hr/>
-      {/* <CBCStateEx/> */}
-      {/* <FBCStateEx/> */}
-      {/* <FunctionalComponent/> */}
-      <MyForm></MyForm>
+      <Refexamples></Refexamples>
+      {/* <ExUseEffect></ExUseEffect> */}
     </div>
   )
 }
